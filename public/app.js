@@ -16,7 +16,8 @@ attlApp.config(function($routeProvider, $locationProvider) {
       controller: 'NewsController'
     })
     .when('/contact', {
-      templateUrl: 'partials/contact.html'
+      templateUrl: 'partials/contact.html',
+      controller: 'ContactController'
     })
     .otherwise('/', {
       redirectTo : '/'
